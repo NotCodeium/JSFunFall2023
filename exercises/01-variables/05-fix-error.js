@@ -3,9 +3,10 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+//const is preventing the number from being changed
 
 // This is throwing an error. Do you know why?
-const numberOfLikes = 57; // Change me
+let numberOfLikes = 57; // Change me
 
 // DO NOT CHANGE THE CODE BELOW
 
