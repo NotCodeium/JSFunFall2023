@@ -16,3 +16,11 @@ const place = "New Jersey"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let newPlace;
+if (place === 'New Jersey') {
+    newPlace = 'Jersey';
+    } else if(place ==="New York") {
+        newPlace= 'York';
+        }else if(place==='Los Angeles'){
+            newPlace='Angeles';
+            }

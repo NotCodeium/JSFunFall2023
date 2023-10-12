@@ -7,6 +7,5 @@ let num2 = "7"; // e.g.
  * This should still work when "num1" and "num2" are equal to different values that could be strings or numbers.
  */
 
-// WRITE YOUR ANSWER BELOW THIS LINE
-
-let sum = num1 + num2;
+// WRITE YOUR ANSWER BELOW THIS LINE 
+let sum = parseFloat(num1) + parseFloat(num2);

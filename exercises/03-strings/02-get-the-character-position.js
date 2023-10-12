@@ -4,7 +4,7 @@ let letter = "i"; // e.g.
 /**
  * Create a variable called "characterPosition".
  * It should be equal to the first index (position) of "letter" within the string "firstName".
- *
+ * 
  * @example
  * let firstName = "Bill";
  * let letter = "i"; // e.g.
@@ -19,3 +19,4 @@ let letter = "i"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const characterPosition = firstName.indexOf(letter);

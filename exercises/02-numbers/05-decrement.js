@@ -8,3 +8,9 @@ let age = 90; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 --age;
+
+
+
+let firstName = "Brian";
+firstName = firstName.replace("i", "y");
+console.log(firstName);

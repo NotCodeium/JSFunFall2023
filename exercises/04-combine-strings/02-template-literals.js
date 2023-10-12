@@ -16,3 +16,8 @@ let author = "J. K. Rowling";
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const bookInfo = `${bookTitle} by ${author}`;
+console.assert(
+    typeof bookInfo === 'string',
+    'The value of `bookInfo` should be a string.' );
+    
