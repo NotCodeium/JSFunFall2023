@@ -20,3 +20,4 @@ let isBuyingDrink = true; // e.g.
 if (isBuyingDrink === true){
     total += drink;
     }
+

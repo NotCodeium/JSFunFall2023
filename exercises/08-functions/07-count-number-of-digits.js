@@ -10,3 +10,12 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const countNumberOfDigits = (num) => {
+    if (typeof num !== 'number') {
+       throw new Error('Input must be a number');
+    }
+   
+    return num.toString().length;
+   };
+   
+   console.log(countNumberOfDigits(5000));

@@ -16,3 +16,14 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const multiply = (num1, num2) => {
+    if (typeof num1 !== 'number' || typeof num2 !== 'number') {
+       throw new Error('Both parameters must be numbers.');
+    }
+   
+    return num1 * num2;
+   };
+   
+   console.log(multiply(5, 5));
+   console.log(multiply(2, 5)); 
+   console.log(multiply(0, 5));

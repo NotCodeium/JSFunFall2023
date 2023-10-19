@@ -12,3 +12,13 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isEvenOrOdd = (num) => {
+    if (typeof num !== 'number') {
+       throw new Error('Input must be a number');
+    }
+   
+    return num % 2 === 0 ? 'even' : 'odd';
+   };
+   
+   console.log(isEvenOrOdd(10));
+   console.log(isEvenOrOdd(3));
