@@ -24,6 +24,3 @@ const lowerCaseString = (str) => {
     return str.toLowerCase();
    };
    
-   console.log(lowerCaseString("HELLO WORLD"));
-   console.log(lowerCaseString()); 
-   console.log(lowerCaseString(null)); 
