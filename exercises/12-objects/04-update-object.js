@@ -15,3 +15,5 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+ student.name = "Your Name";
+ student.skills.push("Your New Skill");
