@@ -17,3 +17,10 @@ const links = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let html = '';
+
+for (let key in links) {
+  if (links.hasOwnProperty(key)) {
+    html += `<a href="${links[key]}">${key}</a>`;
+  }
+}
