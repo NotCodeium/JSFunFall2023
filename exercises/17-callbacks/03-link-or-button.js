@@ -18,17 +18,18 @@ const createButton = (text) => {
  */
 
 // CHANGE SOMETHING WITH THE FUNCTION DECLARATION
-const createCallToAction = (clickableText) => {
+const createCallToAction = (clickableText, createClickableElement) => {
+  const callToActionText = createClickableElement(clickableText);
   // CHANGE SOMETHING INSIDE THIS FUNCTION
   return (
     "<div>Limited Time: Members Save 30%<br>" +
-    createLink(clickableText) +
+    callToActionText +
     "</div>"
-  );
+ );
 };
 
 // CHANGE SOMETHING HERE TOO so that creates a link
-console.log(createCallToAction("Book Now"));
+console.log(createCallToAction("Book Now", createLink));
 
 // IGNORE THIS BELOW. It is for the tests.
 

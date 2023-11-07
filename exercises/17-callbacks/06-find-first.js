@@ -42,7 +42,14 @@ const isNumberTwoDigits = (num) => {
 
 const findFirst = (arrayOfNum, callback) => {
   // WRITE YOUR ANSWER IN HERE
+  for (let i = 0; i < arrayOfNum.length; i++) {
+    const currentNum = arrayOfNum[i];
+    if (callback(currentNum)) {
+      return currentNum;
+    }
 };
+  return null;
+}
 
 /**
  * Uncomment me to test your answer in Quokka
